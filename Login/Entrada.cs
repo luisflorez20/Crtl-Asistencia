@@ -22,8 +22,8 @@ namespace Login
         private void btnenviar_Click(object sender, EventArgs e)
         {
 
-            //SqlConnection cn = new SqlConnection("data source=ACV-DSK-18001\\SQLEXPRESS;initial catalog=CAMPOVERDE;persist security info=True;user id=sa;password=46715373;MultipleActiveResultSets=True;");
-            SqlConnection cn = new SqlConnection("data source=192.168.0.10;initial catalog=ASISTENCIA;user id=sa;password=46715373;MultipleActiveResultSets=True;App=EntityFramework");
+            SqlConnection cn = new SqlConnection("data source=ADL-LAP-18002\\SQLEXPRESS;initial catalog=CAMPOVERDE;persist security info=True;user id=sa;password=Donlui$@;MultipleActiveResultSets=True;");
+            //SqlConnection cn = new SqlConnection("data source=ADL-LAP-18002\SQLEXPRESS;initial catalog=ASISTENCIA;user id=sa;password=Donlui$;MultipleActiveResultSets=True;App=EntityFramework");
 
           //SqlConnection cn = new SqlConnection("data source=192.168.0.5;initial catalog=DONLUIS;user id=sa;password=DonLuis.rar;MultipleActiveResultSets=True;App=EntityFramework");
           /*  {
@@ -183,6 +183,11 @@ namespace Login
             this.Hide();
             Login form = new Login();
             form.Show();
+        }
+
+        private void lblFecha_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

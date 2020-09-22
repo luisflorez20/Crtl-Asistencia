@@ -85,11 +85,11 @@
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblHora.Location = new System.Drawing.Point(374, 3);
+            this.lblHora.Location = new System.Drawing.Point(543, 3);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(215, 76);
+            this.lblHora.Size = new System.Drawing.Size(66, 24);
             this.lblHora.TabIndex = 0;
             this.lblHora.Text = "label1";
             this.lblHora.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -97,13 +97,14 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.Location = new System.Drawing.Point(131, 3);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(171, 61);
+            this.lblFecha.Size = new System.Drawing.Size(66, 24);
             this.lblFecha.TabIndex = 0;
             this.lblFecha.Text = "label1";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblFecha.Click += new System.EventHandler(this.lblFecha_Click);
             // 
             // fechahora
             // 
@@ -230,7 +231,6 @@
             this.Name = "frmentrada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Entrada";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmentrada_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
