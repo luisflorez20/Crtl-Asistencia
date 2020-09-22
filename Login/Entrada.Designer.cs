@@ -50,8 +50,8 @@
             // 
             // btnenviar
             // 
-            this.btnenviar.Font = new System.Drawing.Font("Bebas Neue", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnenviar.Location = new System.Drawing.Point(599, 210);
+            this.btnenviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnenviar.Location = new System.Drawing.Point(387, 134);
             this.btnenviar.Name = "btnenviar";
             this.btnenviar.Size = new System.Drawing.Size(181, 39);
             this.btnenviar.TabIndex = 2;
@@ -63,7 +63,7 @@
             // txtDni
             // 
             this.txtDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDni.Location = new System.Drawing.Point(538, 166);
+            this.txtDni.Location = new System.Drawing.Point(326, 90);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(312, 38);
             this.txtDni.TabIndex = 1;
@@ -75,21 +75,21 @@
             // lbldni
             // 
             this.lbldni.AutoSize = true;
-            this.lbldni.Font = new System.Drawing.Font("Bebas Neue", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldni.Location = new System.Drawing.Point(386, 171);
+            this.lbldni.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldni.Location = new System.Drawing.Point(116, 93);
             this.lbldni.Name = "lbldni";
-            this.lbldni.Size = new System.Drawing.Size(146, 32);
+            this.lbldni.Size = new System.Drawing.Size(204, 31);
             this.lbldni.TabIndex = 0;
             this.lbldni.Text = "Ingrese su DNI:";
             // 
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Font = new System.Drawing.Font("Bebas Neue", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblHora.Location = new System.Drawing.Point(601, 13);
+            this.lblHora.Location = new System.Drawing.Point(374, 3);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(197, 80);
+            this.lblHora.Size = new System.Drawing.Size(215, 76);
             this.lblHora.TabIndex = 0;
             this.lblHora.Text = "label1";
             this.lblHora.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -97,10 +97,10 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Font = new System.Drawing.Font("Bebas Neue", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(430, 86);
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(131, 3);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(158, 64);
+            this.lblFecha.Size = new System.Drawing.Size(171, 61);
             this.lblFecha.TabIndex = 0;
             this.lblFecha.Text = "label1";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -113,10 +113,10 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Bebas Neue", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(51, 479);
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(44, 374);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(0, 58);
+            this.lblNombre.Size = new System.Drawing.Size(0, 55);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
             // 
@@ -124,10 +124,10 @@
             // 
             this.Apaterno.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
             this.Apaterno.AutoSize = true;
-            this.Apaterno.Font = new System.Drawing.Font("Bebas Neue", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Apaterno.Location = new System.Drawing.Point(205, 304);
+            this.Apaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Apaterno.Location = new System.Drawing.Point(198, 199);
             this.Apaterno.Name = "Apaterno";
-            this.Apaterno.Size = new System.Drawing.Size(189, 40);
+            this.Apaterno.Size = new System.Drawing.Size(237, 38);
             this.Apaterno.TabIndex = 4;
             this.Apaterno.Text = "Primer Apellido";
             this.Apaterno.Click += new System.EventHandler(this.Apaterno_Click);
@@ -136,10 +136,10 @@
             // 
             this.Amaterno.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
             this.Amaterno.AutoSize = true;
-            this.Amaterno.Font = new System.Drawing.Font("Bebas Neue", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Amaterno.Location = new System.Drawing.Point(205, 380);
+            this.Amaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Amaterno.Location = new System.Drawing.Point(198, 275);
             this.Amaterno.Name = "Amaterno";
-            this.Amaterno.Size = new System.Drawing.Size(204, 40);
+            this.Amaterno.Size = new System.Drawing.Size(271, 38);
             this.Amaterno.TabIndex = 5;
             this.Amaterno.Text = "Segundo Apellido";
             this.Amaterno.Click += new System.EventHandler(this.Amaterno_Click);
@@ -148,10 +148,10 @@
             // 
             this.Nombres.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
             this.Nombres.AutoSize = true;
-            this.Nombres.Font = new System.Drawing.Font("Bebas Neue", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nombres.Location = new System.Drawing.Point(205, 457);
+            this.Nombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombres.Location = new System.Drawing.Point(198, 352);
             this.Nombres.Name = "Nombres";
-            this.Nombres.Size = new System.Drawing.Size(112, 40);
+            this.Nombres.Size = new System.Drawing.Size(184, 38);
             this.Nombres.TabIndex = 6;
             this.Nombres.Text = "NOMBRES";
             this.Nombres.Click += new System.EventHandler(this.Nombres_Click);
@@ -159,37 +159,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bebas Neue", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(203, 340);
+            this.label1.Location = new System.Drawing.Point(196, 235);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 40);
+            this.label1.Size = new System.Drawing.Size(0, 38);
             this.label1.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bebas Neue", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(203, 415);
+            this.label2.Location = new System.Drawing.Point(196, 310);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 40);
+            this.label2.Size = new System.Drawing.Size(0, 38);
             this.label2.TabIndex = 8;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Bebas Neue", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(202, 491);
+            this.label3.Location = new System.Drawing.Point(195, 386);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 40);
+            this.label3.Size = new System.Drawing.Size(0, 38);
             this.label3.TabIndex = 8;
             // 
             // pictureBox1
             // 
-            //this.pictureBox1.Image = global::Login.Properties.Resources.Avatar;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 321);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 216);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(154, 182);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -212,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(930, 597);
+            this.ClientSize = new System.Drawing.Size(663, 404);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
