@@ -53,12 +53,13 @@ namespace Login
 
             if (dt.Rows.Count > 0)
 
-            //lblNombre.Text = dt.Rows[0]["A_PATERNO"].ToString().Trim() + " " + dt.Rows[0]["A_MATERNO"].ToString().Trim() + " " + dt.Rows[0]["Nombres"].ToString().Trim();
-            {   label1.Text = dt.Rows[0]["A_PATERNO"].ToString().Trim();
+            lblNombre.Text = dt.Rows[0]["A_PATERNO"].ToString().Trim() + " " + dt.Rows[0]["A_MATERNO"].ToString().Trim() + " " + dt.Rows[0]["Nombres"].ToString().Trim();
+            
+            /*{   label1.Text = dt.Rows[0]["A_PATERNO"].ToString().Trim();
                 label2.Text = dt.Rows[0]["A_MATERNO"].ToString().Trim();
                 label3.Text = dt.Rows[0]["NOMBRES"].ToString().Trim();
             }
-
+            */
 
             else
             {
@@ -147,7 +148,7 @@ namespace Login
                 btnenviar.PerformClick();
             }
         }
-
+        
         private void Apaterno_Click(object sender, EventArgs e)
         {
 
@@ -162,7 +163,7 @@ namespace Login
         {
 
         }
-
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
