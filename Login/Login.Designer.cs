@@ -45,7 +45,6 @@
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(195, 20);
             this.txtusuario.TabIndex = 0;
-            this.txtusuario.TextChanged += new System.EventHandler(this.txtusuario_TextChanged);
             // 
             // txtcontra
             // 
@@ -60,30 +59,30 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblusuario.Location = new System.Drawing.Point(117, 16);
+            this.lblusuario.Font = new System.Drawing.Font("28 Days Later", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblusuario.Location = new System.Drawing.Point(117, 21);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(68, 20);
+            this.lblusuario.Size = new System.Drawing.Size(61, 15);
             this.lblusuario.TabIndex = 2;
             this.lblusuario.Text = "Usuario:";
             // 
             // lblcontraseña
             // 
             this.lblcontraseña.AutoSize = true;
-            this.lblcontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcontraseña.Location = new System.Drawing.Point(117, 59);
+            this.lblcontraseña.Font = new System.Drawing.Font("28 Days Later", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcontraseña.Location = new System.Drawing.Point(117, 64);
             this.lblcontraseña.Name = "lblcontraseña";
-            this.lblcontraseña.Size = new System.Drawing.Size(96, 20);
+            this.lblcontraseña.Size = new System.Drawing.Size(95, 15);
             this.lblcontraseña.TabIndex = 3;
-            this.lblcontraseña.Text = "Contraseña:";
+            this.lblcontraseña.Text = "CONTRASENA:";
             this.lblcontraseña.Click += new System.EventHandler(this.lblcontraseña_Click);
             // 
             // btnlogin
             // 
-            this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlogin.Location = new System.Drawing.Point(190, 104);
+            this.btnlogin.Font = new System.Drawing.Font("28 Days Later", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlogin.Location = new System.Drawing.Point(142, 104);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(104, 44);
+            this.btnlogin.Size = new System.Drawing.Size(104, 23);
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "INICIAR SESION";
             this.btnlogin.UseVisualStyleBackColor = true;
@@ -91,18 +90,17 @@
             // 
             // btncancel
             // 
-            this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(319, 104);
+            this.btncancel.Font = new System.Drawing.Font("28 Days Later", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancel.Location = new System.Drawing.Point(271, 104);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(104, 44);
+            this.btncancel.Size = new System.Drawing.Size(104, 23);
             this.btncancel.TabIndex = 5;
-            this.btncancel.Text = "CANCELAR";
+            this.btncancel.Text = "Cancelar";
             this.btncancel.UseVisualStyleBackColor = true;
             this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Login.Properties.Resources.Logo_Acceso;
+            //             
             this.pictureBox1.Location = new System.Drawing.Point(11, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 117);
@@ -110,11 +108,11 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // Login
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 154);
+            this.ClientSize = new System.Drawing.Size(437, 147);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnlogin);
@@ -123,7 +121,7 @@
             this.Controls.Add(this.txtcontra);
             this.Controls.Add(this.txtusuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Login";
+            this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

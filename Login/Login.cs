@@ -5,7 +5,7 @@ namespace Login
 {
     public partial class Login : Form
     {
-        Form_RegistroUsuario logeo;
+        RegistroUsuario logeo;
 
 
         public Login()
@@ -20,32 +20,25 @@ namespace Login
 
                {
                     this.Hide();
-                    logeo = new Form_RegistroUsuario();
+                    logeo = new RegistroUsuario();
                     logeo.ShowDialog();
 
                 }
                 else
                     MessageBox.Show("Error al ingresar datos");
 
+           
 
         }
 
         private void btncancel_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(@"Esta seguro que desea cancelar?", @"Atención",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-             //   Application.Exit();
-
-            {
-                this.Hide();
-                frmentrada entrada = new frmentrada();
-                entrada.Show();
-            }
-            else
-                txtusuario.Focus();
-
+                if (MessageBox.Show(@"Esta seguro que desea salir del sistema?", @"Atención",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    Application.Exit();
+                else
+                    txtusuario.Focus();
         }
-
 
         private void txtcontra_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -56,7 +49,7 @@ namespace Login
 
                 {
                     this.Hide();
-                    logeo = new Form_RegistroUsuario();
+                    logeo = new RegistroUsuario();
                     logeo.ShowDialog();
                     
                 }
@@ -79,12 +72,7 @@ namespace Login
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-        }
-
-        private void txtusuario_TextChanged(object sender, EventArgs e)
-        {
-
+           
         }
     }
 }

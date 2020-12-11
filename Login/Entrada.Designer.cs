@@ -36,6 +36,9 @@
             this.lblHora = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.fechahora = new System.Windows.Forms.Timer(this.components);
+            this.Apaterno = new System.Windows.Forms.Label();
+            this.Amaterno = new System.Windows.Forms.Label();
+            this.Nombres = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -84,7 +87,7 @@
             this.lblHora.AutoSize = true;
             this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblHora.Location = new System.Drawing.Point(509, 15);
+            this.lblHora.Location = new System.Drawing.Point(509, 3);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(66, 24);
             this.lblHora.TabIndex = 0;
@@ -95,7 +98,7 @@
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(131, 15);
+            this.lblFecha.Location = new System.Drawing.Point(131, 3);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(66, 24);
             this.lblFecha.TabIndex = 0;
@@ -108,12 +111,48 @@
             this.fechahora.Enabled = true;
             this.fechahora.Tick += new System.EventHandler(this.fechahora_Tick);
             // 
+            // Apaterno
+            // 
+            this.Apaterno.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
+            this.Apaterno.AutoSize = true;
+            this.Apaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Apaterno.Location = new System.Drawing.Point(198, 175);
+            this.Apaterno.Name = "Apaterno";
+            this.Apaterno.Size = new System.Drawing.Size(180, 29);
+            this.Apaterno.TabIndex = 4;
+            this.Apaterno.Text = "Primer Apellido";
+            this.Apaterno.Click += new System.EventHandler(this.Apaterno_Click);
+            // 
+            // Amaterno
+            // 
+            this.Amaterno.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
+            this.Amaterno.AutoSize = true;
+            this.Amaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Amaterno.Location = new System.Drawing.Point(198, 240);
+            this.Amaterno.Name = "Amaterno";
+            this.Amaterno.Size = new System.Drawing.Size(206, 29);
+            this.Amaterno.TabIndex = 5;
+            this.Amaterno.Text = "Segundo Apellido";
+            this.Amaterno.Click += new System.EventHandler(this.Amaterno_Click);
+            // 
+            // Nombres
+            // 
+            this.Nombres.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
+            this.Nombres.AutoSize = true;
+            this.Nombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombres.Location = new System.Drawing.Point(198, 307);
+            this.Nombres.Name = "Nombres";
+            this.Nombres.Size = new System.Drawing.Size(135, 29);
+            this.Nombres.TabIndex = 6;
+            this.Nombres.Text = "NOMBRES";
+            this.Nombres.Click += new System.EventHandler(this.Nombres_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(206, 172);
+            this.label1.Location = new System.Drawing.Point(209, 211);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 7;
@@ -121,9 +160,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(206, 215);
+            this.label2.Location = new System.Drawing.Point(209, 273);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 29);
             this.label2.TabIndex = 8;
@@ -131,22 +170,21 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(206, 258);
+            this.label3.Location = new System.Drawing.Point(209, 336);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 29);
             this.label3.TabIndex = 8;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::Login.Properties.Resources.Avatar;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 160);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 175);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 136);
+            this.pictureBox1.Size = new System.Drawing.Size(161, 161);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -157,9 +195,9 @@
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(2, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 43);
+            this.button1.Size = new System.Drawing.Size(87, 43);
             this.button1.TabIndex = 9;
-            this.button1.Text = "ADMINISTRADOR";
+            this.button1.Text = "INGRESAR AL SISTEMA";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -178,12 +216,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(663, 315);
+            this.ClientSize = new System.Drawing.Size(663, 405);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Nombres);
+            this.Controls.Add(this.Amaterno);
+            this.Controls.Add(this.Apaterno);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblHora);
@@ -210,6 +251,9 @@
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Timer fechahora;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Apaterno;
+        private System.Windows.Forms.Label Amaterno;
+        private System.Windows.Forms.Label Nombres;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

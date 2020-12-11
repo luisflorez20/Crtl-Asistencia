@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    partial class Form_RegistroUsuario
+    partial class RegistroUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Cambiar Contraseña",
-            "Salir del sistema"});
+            "Salir"});
             this.comboBox1.Location = new System.Drawing.Point(12, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -47,28 +47,24 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Login.Properties.Resources.índice2;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Font = new System.Drawing.Font("28 Days Later", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(12, 49);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 56);
+            this.button1.Size = new System.Drawing.Size(72, 50);
             this.button1.TabIndex = 1;
             this.button1.Text = "Marcaciones";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form_RegistroUsuario
+            // RegistroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 343);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
-            this.Name = "Form_RegistroUsuario";
-            this.Text = "Form_RegistroUsuario";
-            this.Load += new System.EventHandler(this.RegistroUsuario_Load);
+            this.Name = "RegistroUsuario";
+            this.Text = "RegistroUsuario";
             this.ResumeLayout(false);
 
         }

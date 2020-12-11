@@ -13,7 +13,7 @@ namespace Login
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new selectPuerta());            
+            Application.Run(new frmentrada());            
         }
     }
 }
